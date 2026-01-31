@@ -1,0 +1,112 @@
+
+# 📊 Netflix Movies Data Analysis Report
+
+## 1. Introduction
+
+Netflix is a global leader in entertainment streaming and is well known for leveraging **Data Science, Artificial Intelligence (AI), and Machine Learning (ML)** to understand user preferences and optimize content recommendations. Data-driven decision-making plays a crucial role in determining which movies to promote, acquire, or recommend to users.
+
+This report presents an exploratory data analysis (EDA) performed on a dataset containing **more than 9,000 movies**, with the objective of identifying trends related to genres, popularity, voting patterns, and yearly movie releases.
+
+---
+
+## 2. Objectives of the Study
+
+The primary objectives of this analysis are:
+
+* To identify the most frequently released movie genre on Netflix
+* To determine which genre receives the highest audience votes
+* To find the movie with the highest popularity and analyze its genre
+* To find the movie with the lowest popularity and analyze its genre
+* To determine the year with the highest number of movie releases
+
+---
+
+## 3. Dataset Description
+
+* **Total Records:** 9,000+ movies
+* **Important Attributes Used:**
+
+  * `title` – Movie name
+  * `genres` – Movie genre(s)
+  * `vote_average` – Average audience rating
+  * `popularity` – Popularity score
+  * `release_year` – Year of release
+
+The dataset provides structured information suitable for statistical and exploratory analysis.
+
+---
+
+## 4. Methodology
+
+The following steps were followed during the analysis:
+
+1. Data cleaning and preprocessing
+2. Handling missing and duplicate values
+3. Genre-wise aggregation and frequency analysis
+4. Popularity and voting score analysis
+5. Year-wise movie count analysis
+6. Interpretation of results for business insights
+
+Python libraries such as **Pandas**, **NumPy**, and visualization tools were used for analysis.
+
+---
+
+## 5. Analysis and Results
+
+ 5.1 Most Frequent Genre
+
+* **Drama** is the most frequently occurring genre in the dataset.
+* It accounts for **more than 14%** of the total movies.
+* This indicates a strong preference for drama-based content on Netflix.
+
+
+5.2 Genre with Highest Votes (Vote Average)
+
+* Approximately **25.5%** of the dataset contains movies with high vote averages.
+* **Drama** once again leads in terms of audience votes.
+* It contributes **over 18.5%** of highly rated movies, showing strong viewer appreciation.
+
+
+
+5.3 Movie with Highest Popularity
+
+* **Movie:** *Spider-Man: No Way Home*
+* **Genres:** Action, Adventure, Science Fiction
+
+This movie has the highest popularity score in the dataset, reflecting massive audience engagement and global appeal.
+
+
+5.4 Movie with Lowest Popularity
+
+* **Movie:** *The United States, Thread*
+* **Genres:** Music, Drama, War, Science Fiction, History
+
+This movie recorded the lowest popularity score, suggesting limited audience reach or niche interest.
+
+5.5 Year with Most Filmed Movies
+
+* **Year:** 2020
+* The year 2020 has the highest number of movie releases in the dataset.
+* This may be influenced by increased digital releases and higher content demand during the pandemic period.
+
+
+6. Business Insights
+
+From the analysis, the following insights can be drawn:
+
+* Drama is a **high-demand and high-engagement genre**
+* Popularity is often associated with **Action, Adventure, and Sci-Fi movies**
+* High-content production years correlate with increased streaming consumption
+* Netflix can prioritize genres with both **high frequency and high audience approval**
+
+ 7. Conclusion
+This analysis demonstrates how data-driven insights can guide Netflix in making strategic content decisions. Drama emerges as the dominant genre in both frequency and audience approval, while blockbuster movies dominate popularity metrics. Understanding such patterns allows Netflix to enhance its recommendation systems and optimize content acquisition strategies.
+
+8. Future Scope
+
+* Perform sentiment analysis on user reviews
+* Build recommendation models using collaborative filtering
+* Predict movie popularity using machine learning
+* Compare Netflix trends with other streaming platforms
+
+
